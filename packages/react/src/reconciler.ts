@@ -6,7 +6,7 @@ import { createContext } from 'react'
 import { LayoutNode } from './layout.js'
 import { applyStyles, resolveColor, Styles } from './styles.js'
 import { getStringWidth } from './text-width.js'
-import Yoga from 'yoga-layout-prebuilt'
+import Yoga from 'yoga-layout'
 
 type Type = 'box' | 'text'
 type Props = any

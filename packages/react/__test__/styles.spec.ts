@@ -1,5 +1,5 @@
 import test from 'ava'
-import Yoga from 'yoga-layout-prebuilt'
+import Yoga from 'yoga-layout'
 import { applyStyles } from '../dist/styles.js'
 
 // ─── T7: justifyContent 'space-evenly' maps to Yoga.JUSTIFY_SPACE_EVENLY ─────

@@ -1,4 +1,4 @@
-import Yoga from 'yoga-layout-prebuilt'
+import Yoga from 'yoga-layout'
 import { measureTextBlock } from './text-width.js'
 
 type YogaNode = ReturnType<typeof Yoga.Node.create>
